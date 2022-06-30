@@ -25,5 +25,5 @@ def disconnect():
     print('disconnected from server')
 
 
-sio.connect("http://localhost:3002")
+sio.connect("http://192.168.91.180:3002")
 sio.wait()
